@@ -1,0 +1,8 @@
+# Ignorar la carpeta de datos completa
+nutnet_data/
+my_data/
+
+# Recomendado para proyectos en R (archivos de historial y sesión)
+.Rhistory
+.RData
+.Rproj.user/
