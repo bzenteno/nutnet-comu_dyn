@@ -491,7 +491,7 @@ make_figure <- function(lang) {
 
 for (lang in FIG_LANGS) {
   fig <- make_figure(lang)
-  #print(fig)
-  ggsave(file.path(OUT_DIR, paste0("fig6_rda_", lang, ".png")),
-         fig, width = 8, height = 6, dpi = 300)
+  print(fig)
+  #ggsave(file.path(OUT_DIR, paste0("fig6_rda_", lang, ".png")),
+   #      fig, width = 8, height = 6, dpi = 300)
 }
